@@ -1,0 +1,110 @@
+/* Reseteo básico */
+body, h1, h2, h3, p, ul, li, img, nav, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Estilo del Encabezado */
+header {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-menu {
+    display: inline-block;
+}
+
+.nav-menu li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.subtitle {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+/* Estilo del Main */
+main {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+article {
+    flex: 3;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+article img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+aside {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-left: 2px solid #ddd;
+}
+
+aside ul {
+    margin-bottom: 10px;
+}
+
+aside form {
+    margin-top: 10px;
+}
+
+/* Sección de Contenido Adicional */
+.additional-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.content-block {
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Pie de Página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.social-links {
+    display: inline-block;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
